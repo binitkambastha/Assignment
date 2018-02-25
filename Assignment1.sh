@@ -1,3 +1,4 @@
+date +%A
 echo $n
 for i in $@
 do 
