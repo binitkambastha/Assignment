@@ -2,10 +2,11 @@ date +%A
 echo $n
 for i in $@
 do 
+	echo $i
 	sum=`expr $sum + $i`
 	if (("$i" > 10))
 	then
-		echo $i
+		echo "number greater than 10 :" $i
 		a=`expr $a + $i`
 	fi
 done
