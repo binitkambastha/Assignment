@@ -1,4 +1,5 @@
 #!/bin/sh
+cd 
 ls $1 | while read folder
 do 
 	if [ -d $1/folder ]
